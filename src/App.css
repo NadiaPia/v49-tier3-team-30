@@ -13,6 +13,7 @@
 	.appContainer {
         background-position: -280px 150px;
         background-size:auto;
+        padding: 10px 8px;
     
   }
 }

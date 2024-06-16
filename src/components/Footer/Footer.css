@@ -11,3 +11,10 @@
     font-family: 'Courier Prime', monospace;
     
   }
+
+  @media screen and (max-width: 500px) {
+    .footerSection {
+      flex-direction: column;
+      
+    }
+  }

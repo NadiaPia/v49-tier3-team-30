@@ -119,9 +119,10 @@ function RoadMap({ nodes, edges, courseName, authState, setAuthState }) {
     <div className="roadmapContainer">
       <div className="roadmapTitle">
         <div className="roadmapText">{courseName}</div>
-        <div>
+        <div className="percentageText">
           {percent ? `You have completed ${percent}% of the course` : ""}
         </div>
+        <div className="dragMessage">(drag a chart!) </div>
       </div>
 
       <div

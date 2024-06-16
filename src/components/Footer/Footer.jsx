@@ -5,7 +5,7 @@ import { GiMountainRoad } from "react-icons/gi";
 function Footer() {
   return (
     <div className='footerSection'>
-      © 2024 road.map(<GiMountainRoad/>). All rights reserved
+      <div>© 2024 road.map(<GiMountainRoad/>).</div> <div>All rights reserved</div>
     </div>
   )
 }
