@@ -1,5 +1,5 @@
 .appContainer {
-    background-image: url("map12.jpg");
+    background-image: url("./assets/map12.jpg");
     padding: 10px 30px;
     background-size:cover;
     background-position: 170px -200px;
