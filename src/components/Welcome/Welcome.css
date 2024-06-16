@@ -19,18 +19,19 @@
 
 .appDescription {
   width: 100%;
-  padding: 10px 5px;
+  padding: 10px 50px;
   font-size: 1.3rem;
   font-weight: 600;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 30px;
   line-height: 1.5rem;
   margin-top: 10px;
 }
 @media screen and (max-width: 500px) {
 	.appDescription p{
-    font-size: 0.9rem;    
+    font-size: 0.9rem;  
+    padding: 10px 5px;  
   }
 }
 
